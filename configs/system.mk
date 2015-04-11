@@ -34,6 +34,10 @@ PRODUCT_COPY_FILES += \
 #    vendor/$(VENDOR)/prebuilt/bin/backuptool.functions:system/bin/backuptool.functions \
 #    vendor/$(VENDOR)/prebuilt/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh
 
+# Signature compatibiliyy validation
+PRODUCT_COPY_FILES += \
+    vendor/$(VENDOR)/prebuilt/bin/otasigcheck.sh:system/bin/otasigcheck.sh
+
 # SU Support
 # SUPERUSER_EMBEDDED := true
 
