@@ -24,7 +24,7 @@ ifneq ($(filter pa_bacon pa_d800 pa_d801 pa_d802 pa_d803 pa_d850 pa_d851 pa_d852
 endif
 
 # PA XHDPI Devices
-ifneq ($(filter pa_amami pa_nozomi pa_falcon pa_peregrine pa_ghost pa_tomato pa_armani pa_evita pa_mako pa_m7 pa_xt926 moto_msm8960_jbbl pa_hercules pa_i9300 pa_skyrocket pa_titan,$(TARGET_PRODUCT)),)
+ifneq ($(filter pa_amami pa_nozomi pa_falcon pa_peregrine pa_ghost pa_tomato pa_armani pa_evita pa_mako pa_m7 pa_xt926 moto_msm8960_jbbl pa_hercules pa_i9300 pa_skyrocket pa_titan pa_n7100,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/bootanimation/1280x720.zip:system/media/bootanimation.zip
 endif
