@@ -18,7 +18,7 @@
 
 # PA XXXHDPI Devices
 
-ifneq ($(filter pa_d850 pa_d851 pa_d852 pa_d855 pa_find7s pa_ls990 pa_shamu pa_vs985,$(TARGET_PRODUCT)),)
+ifneq ($(filter pa_r7plus pa_d850 pa_d851 pa_d852 pa_d855 pa_find7s pa_ls990 pa_shamu pa_vs985,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/bootanimation/2560x1600.zip:system/media/bootanimation.zip
 endif

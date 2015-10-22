@@ -61,6 +61,7 @@ add_lunch_combo pa_oneplus2-userdebug
 add_lunch_combo pa_peregrine-userdebug
 add_lunch_combo pa_p3100-userdebug
 add_lunch_combo pa_p3110-userdebug
+add_lunch_combo pa_r7plus-userdebug
 add_lunch_combo pa_shamu-userdebug
 add_lunch_combo pa_sirius-userdebug
 add_lunch_combo pa_skyrocket-userdebug

@@ -150,6 +150,9 @@ endif
 ifeq (pa_p3110,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_p3110.mk
 endif
+ifeq (pa_r7plus,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_r7plus.mk
+endif
 ifeq (pa_shamu,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_shamu.mk
 endif
